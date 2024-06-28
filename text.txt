@@ -1,0 +1,40 @@
+1. create a police-api folder and open it in vscode
+2. initialize npm in the project
+3. install express, nodemon
+4. create your index.js file and create your server and listen to it at any project
+5. create your routes folder and add your statement route to it
+6. create a get request to get all statement
+7. create a post request to post a statement
+8. be ready to test it in thunder client
+9. create a config folder
+10. create a file called db.js
+11. install dotenv and import it
+12. import mongoose, mongodb, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-import the joi and start using it with the documentation as a guide
+-add validation to the values you are taking in the model
+
+
+Create your controller folder
+-In the controller folder, create your statement_controller.js
+-create a function to add a statement using the exported model
+-pass the validation into req.body
+-save the req.body in the database
+-Get all statements in the database
+-Get one statement
+-Update one statement caseStatus to closed
+-delete one statement
